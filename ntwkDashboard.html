@@ -11,12 +11,52 @@
     <a href="index.html">Home</a>
     <a href="costDashboard.html">Cost</a>
     
+    
+    <div id="financial_year"></div>
+    
+    
+    <div class="row">
+        <div class="column">    
+            <br>
+            <div id="facility"></div>
+
+            <br>
+            <div id="service_level_zone"></div>
+
+            <br>
+            <div id="service_level_day"></div>
+
+            <br>
+            <div id="zone"></div>
+        </div>
+    
+        <div class="column">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="days"></div>
+        </div>
+    </div>
+
 
 
 
 </body>
 
+<link rel="stylesheet" href="dashboard.css" type="text/css" />
+
+<!---SCRIPTS--->
+<!---D3: Used for data visualzation and reading data.--->
 <script src="https://d3js.org/d3.v5.min.js"></script>
-<script src="homepage.js"></script>
+
+<!---Jexcel: scripts load jexcel, stylesheet gives color and boxes--->
+<script src="https://bossanova.uk/jexcel/v3/jexcel.js"></script>
+<link rel="stylesheet" href="https://bossanova.uk/jexcel/v3/jexcel.css" type="text/css" />
+<script src="https://bossanova.uk/jsuites/v2/jsuites.js"></script>
+
+<!---My Script--->
+<script src="readData.js"></script>
+<script src="ntwkDashboard.js"></script>
 
 </html>

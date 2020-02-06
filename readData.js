@@ -31,14 +31,8 @@ function fillZoneMap(data) {
 
 
 //Read in data from CSV Files
-console.log("Reading Customer Orders..."); 
 d3.csv("../CSV_Data/CustomerOrders.csv").then( fillCustomerOrders ); 
-console.log("...Done.");    
 
-console.log("Reading Shipment Data...");
 d3.csv("../CSV_Data/ShipmentData.csv").then( fillShipmentData ); 
-console.log("...Done.");    
 
-console.log("Reading Zone Map...");
 d3.csv("../CSV_Data/ZoneMap.csv").then( fillZoneMap ); 
-console.log("...Done.");    
